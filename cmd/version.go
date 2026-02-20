@@ -3,8 +3,8 @@ package cmd
 import (
 	"fmt"
 
-	"github.com/groundsec/secbutler/pkg/utils"
 	"github.com/spf13/cobra"
+	"github.com/thelicato/secbutler/pkg/utils"
 )
 
 var versionCmd = &cobra.Command{

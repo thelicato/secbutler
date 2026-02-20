@@ -6,9 +6,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/groundsec/secbutler/pkg/logger"
-	"github.com/groundsec/secbutler/pkg/types"
-	"github.com/groundsec/secbutler/pkg/utils"
+	"github.com/thelicato/secbutler/pkg/logger"
+	"github.com/thelicato/secbutler/pkg/types"
+	"github.com/thelicato/secbutler/pkg/utils"
 )
 
 var payloads = []types.Payloads{

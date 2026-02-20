@@ -6,8 +6,8 @@ import (
 
 	"github.com/erikgeiser/promptkit/selection"
 	"github.com/erikgeiser/promptkit/textinput"
-	"github.com/groundsec/secbutler/pkg/data"
-	"github.com/groundsec/secbutler/pkg/logger"
+	"github.com/thelicato/secbutler/pkg/data"
+	"github.com/thelicato/secbutler/pkg/logger"
 	"golang.org/x/exp/slices"
 )
 
