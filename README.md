@@ -42,7 +42,7 @@ This will display the help for the tool
  (__  )  __/ /__/ /_/ / /_/ / /_/ /  __/ /
 /____/\___/\___/_.___/\__,_/\__/_/\___/_/
 
-v0.1.10 - https://github.com/thelicato/secbutler
+v0.2.0 - https://github.com/thelicato/secbutler
 
 Essential utilities for pentester, bug-bounty hunters and security researchers
 
