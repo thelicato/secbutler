@@ -10,7 +10,7 @@ func Banner(version string) {
  (__  )  __/ /__/ /_/ / /_/ / /_/ /  __/ /    
 /____/\___/\___/_.___/\__,_/\__/_/\___/_/	
 
-v%s - https://github.com/groundsec/secbutler
+v%s - https://github.com/thelicato/secbutler
 
 `
 	fmt.Printf(banner, version)

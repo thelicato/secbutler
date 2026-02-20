@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/groundsec/secbutler/cmd"
-	"github.com/groundsec/secbutler/pkg/utils"
+	"github.com/thelicato/secbutler/cmd"
+	"github.com/thelicato/secbutler/pkg/utils"
 )
 
 func main() {

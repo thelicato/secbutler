@@ -9,14 +9,14 @@ The `tools` command dynamically generates a `install_tools.sh` script that insta
 Build the Docker image:
 
 ```bash
-docker build . -t groundsec/secbutler-tools
+docker build . -t thelicato/secbutler-tools
 ```
 
 Then run `secbutler tools` to generate the `install_tools.sh` script.
 Go to `$HOME/.secbutler` and run:
 
 ```bash
-docker run -it --rm -v $PWD:/secbutler groundsec/secbutler-tools
+docker run -it --rm -v $PWD:/secbutler thelicato/secbutler-tools
 ```
 
 Then, inside the container, run:

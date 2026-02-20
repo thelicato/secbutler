@@ -1,5 +1,5 @@
 <h1 align="center">
-	<img src="https://github.com/groundsec/secbutler/blob/main/docs/logo.png?raw=true" width="400">
+	<img src="https://github.com/thelicato/secbutler/blob/main/docs/logo.png?raw=true" width="400">
 </h1>
 
 <h4 align="center">Essential utilities for pentester, bug-bounty hunters and security researchers</h4>
@@ -42,7 +42,7 @@ This will display the help for the tool
  (__  )  __/ /__/ /_/ / /_/ / /_/ /  __/ /
 /____/\___/\___/_.___/\__,_/\__/_/\___/_/
 
-v0.1.9 - https://github.com/groundsec/secbutler
+v0.1.9 - https://github.com/thelicato/secbutler
 
 Essential utilities for pentester, bug-bounty hunters and security researchers
 
@@ -74,11 +74,11 @@ Use "secbutler [command] --help" for more information about a command.
 Run the following command to install the latest version:
 
 ```
-go install github.com/groundsec/secbutler@latest
+go install github.com/thelicato/secbutler@latest
 ```
 
-Or you can simply grab an executable from the [Releases](https://github.com/groundsec/secbutler/releases) page.
+Or you can simply grab an executable from the [Releases](https://github.com/thelicato/secbutler/releases) page.
 
 ## 🪪 License
 
-_secbutler_ is made with 🖤 by the [GroundSec](https://groundsec.io) team and released under the [MIT LICENSE](https://github.com/groundsec/secbutler/blob/main/LICENSE).
+_secbutler_ is made with 🖤 and released under the [MIT LICENSE](https://github.com/thelicato/secbutler/blob/main/LICENSE).
