@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/groundsec/gogetfp"
-	"github.com/groundsec/secbutler/pkg/logger"
-	"github.com/groundsec/secbutler/pkg/utils"
+	"github.com/thelicato/gogetfp"
+	"github.com/thelicato/secbutler/pkg/logger"
+	"github.com/thelicato/secbutler/pkg/utils"
 )
 
 func GetProxy(untestedFlag bool, randomFlag bool, httpsFlag bool, eliteFlag bool, anonFlag bool, googleFlag bool, countriesFlag string) {
