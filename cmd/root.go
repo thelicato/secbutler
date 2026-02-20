@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/groundsec/secbutler/pkg/logger"
-	"github.com/groundsec/secbutler/pkg/utils"
+	"github.com/thelicato/secbutler/pkg/logger"
+	"github.com/thelicato/secbutler/pkg/utils"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 )

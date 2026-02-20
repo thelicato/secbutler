@@ -8,9 +8,9 @@ import (
 
 	"github.com/AlecAivazis/survey/v2"
 	"github.com/go-git/go-git/v5"
-	"github.com/groundsec/secbutler/pkg/data"
-	"github.com/groundsec/secbutler/pkg/logger"
-	"github.com/groundsec/secbutler/pkg/utils"
+	"github.com/thelicato/secbutler/pkg/data"
+	"github.com/thelicato/secbutler/pkg/logger"
+	"github.com/thelicato/secbutler/pkg/utils"
 )
 
 func checkCheatsheet(folderName string) bool {

@@ -11,8 +11,8 @@ import (
 	"strings"
 
 	"github.com/charmbracelet/glamour"
-	"github.com/groundsec/secbutler/pkg/logger"
-	"github.com/groundsec/secbutler/pkg/types"
+	"github.com/thelicato/secbutler/pkg/logger"
+	"github.com/thelicato/secbutler/pkg/types"
 )
 
 func BooleanColorCode(boolValue bool) string {

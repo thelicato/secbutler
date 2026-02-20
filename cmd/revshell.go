@@ -1,7 +1,7 @@
 package cmd
 
 import (
-	"github.com/groundsec/secbutler/pkg/runners"
+	"github.com/thelicato/secbutler/pkg/runners"
 	"github.com/spf13/cobra"
 )
 

@@ -1,6 +1,6 @@
 package data
 
-import "github.com/groundsec/secbutler/pkg/types"
+import "github.com/thelicato/secbutler/pkg/types"
 
 var Wordlists = []types.Wordlist{
 	{

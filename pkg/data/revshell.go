@@ -1,7 +1,7 @@
 package data
 
 import (
-	"github.com/groundsec/secbutler/pkg/types"
+	"github.com/thelicato/secbutler/pkg/types"
 )
 
 var RevShells = []types.RevShell{
