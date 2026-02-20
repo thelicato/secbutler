@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/thelicato/secbutler/pkg/logger"
-	"github.com/thelicato/secbutler/pkg/utils"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
+	"github.com/thelicato/secbutler/pkg/logger"
+	"github.com/thelicato/secbutler/pkg/utils"
 )
 
 func completionCmd() *cobra.Command {
