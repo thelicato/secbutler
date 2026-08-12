@@ -3,11 +3,11 @@ package runners
 import (
 	"fmt"
 	"os"
+	"os/exec"
 	"path/filepath"
 	"strings"
 
 	"github.com/AlecAivazis/survey/v2"
-	"github.com/go-git/go-git/v5"
 	"github.com/thelicato/secbutler/pkg/data"
 	"github.com/thelicato/secbutler/pkg/logger"
 	"github.com/thelicato/secbutler/pkg/utils"
@@ -69,10 +69,11 @@ func ShowCheatsheet() {
 				logger.Error("You cannot continue without downloading the cheatsheet")
 				os.Exit(1)
 			}
-			_, err = git.PlainClone(filepath.Join(utils.UserHomeDir(), utils.MainDirName, utils.CheatsheetsDirName, cheatsheet.Name), false, &git.CloneOptions{
-				URL:      cheatsheet.Repository,
-				Progress: os.Stdout,
-			})
+			cheatsheetDir := filepath.Join(utils.UserHomeDir(), utils.MainDirName, utils.CheatsheetsDirName, cheatsheet.Name)
+			clone := exec.Command("git", "clone", "--", cheatsheet.Repository, cheatsheetDir)
+			clone.Stdout = os.Stdout
+			clone.Stderr = os.Stderr
+			err = clone.Run()
 			if err != nil {
 				logger.Fatalf("Error: %v", err)
 			}
