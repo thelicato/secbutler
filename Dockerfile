@@ -1,4 +1,4 @@
-FROM golang:1.25 AS build
+FROM golang:1.26.5 AS build
 
 WORKDIR /src
 
@@ -11,10 +11,9 @@ RUN go mod download
 RUN CGO_ENABLED=0 GOOS=linux  \
     go build -trimpath -ldflags="-s -w" -o /out/secbutler ./
 
-FROM scratch
+FROM alpine:3.23
 
-# Since scratch is empty, copy CA certs from the builder image.
-COPY --from=build /etc/ssl/certs/ca-certificates.crt /etc/ssl/certs/
+RUN apk add --no-cache ca-certificates git
 
 # Copy the binary in
 COPY --from=build /out/secbutler /secbutler
